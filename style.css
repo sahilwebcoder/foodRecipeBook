@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+h2{
+    font-size: 40px;
+    color: blueviolet;
+}
+
+.recipe-container {
+    width: 90%;
+    height: auto;
+    border: 2px solid blueviolet;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    box-shadow: -4px 4px 20px rgba(0, 0, 0, 0.555);
+}
+.dish-image-container{
+    /* height: 100%; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding-right: 40px;
+}
+.dishImage{
+    width: 300px;
+    height: auto;
+    top: 50%;
+
+    border-radius: 5px;
+}
+.dish-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.dish-text-container > * {
+    margin-bottom: 15px;
+}
+.btn {
+    padding: 10px 0;
+     max-width: 200px;
+     border: none;
+     border-radius: 10px;
+     background-color: blueviolet;
+     color: white;
+     font-size: 25px;
+     cursor: pointer;
+     transition: 0.5s;
+     font-weight: bold;
+     text-decoration: none;
+     text-align: center;
+}
+.btn:hover {
+    background-color: rgb(159, 86, 228);
+} 
+
+span {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
